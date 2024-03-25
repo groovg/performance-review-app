@@ -4,7 +4,7 @@ const ErrorPage = () => (
   <>
     <h1 className="my-20 text-center text-5xl font-medium">Page Not Found</h1>
     <div className="my-2 flex items-center justify-center">
-      <img src="../sad-face-emoji-7174.svg" alt="" />
+      <img src="../error-page.svg" alt="" />
     </div>
 
     <h1 className="my-10 text-center text-8xl font-medium">404</h1>

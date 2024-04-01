@@ -1,5 +1,5 @@
-import AppHeader from './components/common/AppHeader.jsx';
-import { Outlet } from 'react-router-dom';
+import AppHeader from "./components/common/AppHeader.jsx";
+import { Outlet, useLocation } from "react-router-dom";
 
 const App = () => (
   <>

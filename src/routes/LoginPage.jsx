@@ -1,6 +1,8 @@
 const LoginPage = () => (
   <>
-    <h1 className={'text-center text-3xl'}>Login</h1>
+    <h1 className={"text-center text-3xl"}>
+      Please login using one of the methods
+    </h1>
   </>
 );
 

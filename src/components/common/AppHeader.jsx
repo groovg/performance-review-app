@@ -1,7 +1,22 @@
-const AppHeader = () => (
-  <>
-    <h1 className={"text-center text-3xl"}></h1>
-  </>
-);
+import AuthProvider from "./AuthProvider";
+import { useLocation } from "react-router-dom";
+
+const AppHeader = () => {
+  const currentLocation = useLocation();
+
+  return (
+    <>
+      <AuthProvider />
+    </>
+  );
+
+  // if(currentLocation.pathname != '/login' ){
+  //   return(
+  //     <>
+  //       <AuthProvider/>
+  //     </>
+  //   )
+  // }
+};
 
 export default AppHeader;
